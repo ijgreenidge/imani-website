@@ -1,38 +1,158 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
   display: flex;
+  min-height: 100vh;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Rambla', sans-serif;
+ }
+
+ main {
+  flex: 1 0 auto;
+ }
+
+
+.video {
+ max-height:700px; 
+ border-bottom: 5px solid black;
 }
 
-.App-link {
-  color: #61dafb;
-}
+ a {
+  color: black;
+ }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+ .coding-text {
+  display: none;
+  font-size: 20px;
+ }
+
+ .mbm-text {
+  display: none;
+  font-size: 20px;
+ }
+
+ .box {
+  border:2px solid black;
+  padding:150px 80px 150px 80px;
+ }
+ 
+ .graphic-design-text {
+  display: none;
+  font-size: 20px;
+ }
+
+ .subText {
+  font-size: 20px;
+ }
+
+ .about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+ }
+
+
+ .heading {
+  font-family: 'Bevan', cursive;
+ }
+
+ .icon {
+  width: 200px;
+ }
+
+ .mbm-img {
+  margin-bottom: 75px
+ }
+
+ blockquote {
+  border-left-color: black;
+ }
+
+ .blue-grey-text {
+  font-weight: bold;
+ }
+
+ .github {
+  margin-top: 20px;
+ }
+
+ .connect {
+  padding-top: 100px;
+  padding-bottom: 100px;
+ }
+
+.divider {
+  margin-bottom: 10px;
+ }
+ 
+ .links-icon {
+  width:30px;
+  height:30px;
+ }
+ 
+ .yt-icon {
+   width:300px;
+   height:300px;
+ }
+ 
+ .releases {
+   padding-top: 150px;
+   padding-bottom:150px;
+ }
+ 
+ .banner {
+  border:5px solid black;
+ }
+ 
+ .tiktok-embed {
+   border-left-color:#252525;
+ }
+
+ 
+ @media only screen and (max-width: 600px) {
+  .about {
+   padding-top: 25px;
+   padding-bottom: 0;
   }
-  to {
-    transform: rotate(360deg);
+
+  .info {
+   padding-bottom: 50px;
   }
-}
+
+  .mbm-img {
+   margin-bottom: 0;
+
+  }
+
+  .icon {
+   width: 160px;
+  }
+
+  h3 {
+   font-size: 24px;
+  }
+
+  .subText {
+   font-size: 14px;
+  }
+  
+  .connect {
+   padding-top: 25px;
+   padding-bottom:25px;
+  }
+  
+  .box {
+   padding:50px 50px 50px 50px;
+  }
+  
+ 
+ }
+
+  @media only screen and (max-width: 375px) {
+  .first {
+   margin-bottom: 15px;
+  }
+ }
+ 
+ @media only screen and (max-width: 320px) {
+  .first1 {
+   margin-bottom: 15px;
+  }
+ }
