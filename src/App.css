@@ -9,18 +9,11 @@ body {
   flex: 1 0 auto;
  }
 
-
-.video {
- max-height:700px; 
- border-bottom: 5px solid black;
-}
-
  a {
   color: black;
  }
 
  .coding-text {
-  display: none;
   font-size: 20px;
  }
 
@@ -35,7 +28,6 @@ body {
  }
  
  .graphic-design-text {
-  display: none;
   font-size: 20px;
  }
 
