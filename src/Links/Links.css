@@ -1,0 +1,44 @@
+body {
+  background-color: #141414;
+  color: #ebebeb;
+}
+
+.name {
+  color: #7851a9;
+}
+a {
+  color: #ebebeb;
+}
+
+.links-img {
+  border-radius: 55%;
+  margin-top: 15px;
+  border: 4px solid #7851a9;
+}
+
+.links-icon {
+  margin-right: 15px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 85%;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid black;
+  /* padding:2px; */
+}
+
+.link-text {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.link:hover {
+  background-color: #7851a9;
+}
